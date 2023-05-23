@@ -1,6 +1,6 @@
 # KMeans-Software-Project-TAU
 
-Welcome to the KMeans-Software-Project-TAU! This project was developed as part of the Software Project course (0368-2161) at Tel Aviv University. The aim of this project is to implement the K-means clustering algorithm using both C and Python programming languages.
+Welcome to the KMeans-Software-Project-TAU! This project was developed as part of the Software Project course (0368-2161) at Tel Aviv University by [Moria Nachmany](https://github.com/MoriaNachmany) and [Lior Erenreich](https://github.com/LiorErenreich). The aim of this project is to implement the K-means clustering algorithm using both C and Python programming languages.
 
 ## Project Structure
 
