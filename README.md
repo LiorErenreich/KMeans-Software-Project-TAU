@@ -6,11 +6,11 @@ Welcome to the KMeans-Software-Project-TAU! This project was developed as part o
 
 The project repository consists of the following files:
 
-1. **kmeans - Software Project.pdf**: This document contains the assignment instructions provided by the course instructor. It outlines the requirements and goals of the project.
+1. [**kmeans - Software Project.pdf**](./kmeans%20-%20Software%20Project.pdf): This document contains the assignment instructions provided by the course instructor. It outlines the requirements and goals of the project.
 
-2. **kmeans.c**: This file contains the implementation of the K-means algorithm in the C programming language. The C implementation is intended to provide a high-performance version of the algorithm.
+2. [**kmeans.c**](./kmeans.c): This file contains the implementation of the K-means algorithm in the C programming language. The C implementation is intended to provide a high-performance version of the algorithm.
 
-3. **kmeans.py**: This file contains the implementation of the K-means algorithm in Python. The Python implementation focuses on readability and ease of use, providing a more user-friendly version of the algorithm.
+3. [**kmeans.py**](./kmeans.py): This file contains the implementation of the K-means algorithm in Python. The Python implementation focuses on readability and ease of use, providing a more user-friendly version of the algorithm.
 
 ## Prerequisites
 
@@ -48,6 +48,33 @@ To use this project, follow the steps below:
      ```
 Make sure you have the necessary prerequisites installed and that the input file input.txt exists in the same directory as the script (kmeans.py) before executing these commands.
 
+## Working of the K-means Algorithm
+
+The K-means algorithm is a popular unsupervised machine learning algorithm used for clustering analysis. It aims to partition a given dataset into K clusters, where each data point belongs to the cluster with the nearest mean (centroid).
+
+The algorithm works as follows:
+
+1. **Initialization**: Choose K initial centroids randomly or based on some heuristic. These centroids represent the initial cluster centers.
+
+2. **Assignment**: Assign each data point to the nearest centroid based on a distance metric, typically Euclidean distance. This step creates K clusters.
+
+3. **Update**: Recalculate the centroids of each cluster by taking the mean of all the data points assigned to that cluster.
+
+4. **Repeat**: Repeat steps 2 and 3 until convergence or until a maximum number of iterations is reached. Convergence occurs when the centroids no longer change significantly or when the maximum number of iterations is reached.
+
+5. **Output**: The algorithm outputs the final K clusters along with their centroids.
+
+
+
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif" alt="K-means convergence">
+</div>
+
+
+
+This animation illustrates the k-means clustering process. It shows the convergence of the algorithm at each iteration. During each iteration, the means (centers) of the clusters are updated, and the black lines are drawn based on the updated means. However, the data points are still labeled according to the closest mean from the previous iteration.
+
+
 
 ## Project Flow
 
@@ -67,4 +94,5 @@ For further description and examples of how to run the project, follow the instr
 
 
 Happy clustering!
+
 
