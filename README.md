@@ -2,6 +2,8 @@
 
 Welcome to the KMeans-Software-Project-TAU-Part-1! This project was developed as part of the Software Project course (0368-2161) at Tel Aviv University by [Moria Nachmany](https://github.com/MoriaNachmany) and [Lior Erenreich](https://github.com/LiorErenreich). The aim of this project is to implement the K-means clustering algorithm using both C and Python programming languages.
 
+For part 2 of this project [visit here](https://github.com/LiorErenreich/KMeansPlusPlus-Software-Project-TAU-part-2).
+
 ## Project Structure
 
 The project repository consists of the following files:
@@ -92,6 +94,7 @@ The project provides two implementations of the K-means algorithm to showcase di
 
 For further description and examples of how to run the project, follow the instructions provided in the assignment document. It includes guidelines on compiling and executing the C code, as well as running the Python script. Ensure that you have the necessary dependencies installed for the Python implementation.
 
+For part 2 of this project [visit here](https://github.com/LiorErenreich/KMeansPlusPlus-Software-Project-TAU-part-2).
 
 Happy clustering!
 
