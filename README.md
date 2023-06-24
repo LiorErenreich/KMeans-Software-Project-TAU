@@ -38,7 +38,7 @@ To use this project, follow the steps below:
      ```
    - Execute the compiled binary:
      ```
-     ./kmeans 3 100 < input.txt
+     ./kmeans "3 100 < ./tests/input_1.txt"
      ```
      In the above command, 3 represents the value of K (the number of clusters), and 100 represents the maximum number of iterations. The input data is read from the file input.txt.
 
@@ -46,7 +46,7 @@ To use this project, follow the steps below:
    - Open a terminal or command prompt and navigate to the project directory.
    - Run the Python script using the following command:
      ```
-     python kmeans.py 3 100 < input.txt
+     python kmeans.py 3 100 < ./tests/input_1.txt
      ```
 Make sure you have the necessary prerequisites installed and that the input file input.txt exists in the same directory as the script (kmeans.py) before executing these commands.
 
